@@ -4,9 +4,53 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My Static Site</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body style="font-family: Arial, sans-serif; text-align:center; margin-top:60px;">
-  <h1>Hello — Static HTML on Vercel</h1>
-  <p>This is a minimal static site (index.html).</p>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="<img src="assets/logo.png" alt="logo" style="height:36px">">My<span>Site</span></div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Chào mừng đến với trang của tôi</h1>
+      <p>Minimal static site — đẹp, responsive và dễ chỉnh.</p>
+      <a class="btn" href="#">Bắt đầu</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="cards">
+      <article class="card">
+        <i class="fa-solid fa-rocket fa-2x"></i>
+        <h3>Nhanh</h3>
+        <p>Trang tĩnh, tải nhanh, phù hợp demo.</p>
+      </article>
+      <article class="card">
+        <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+        <h3>Responsive</h3>
+        <p>Hiển thị tốt trên điện thoại và desktop.</p>
+      </article>
+      <article class="card">
+        <i class="fa-solid fa-cog fa-2x"></i>
+        <h3>Dễ tuỳ chỉnh</h3>
+        <p>Chỉnh CSS là đổi giao diện ngay.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© 2025 — Your Name</div>
+  </footer>
 </body>
 </html>
